@@ -1,45 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-	<title>TaskFlow</title>
-	<link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="container">
+      <h1>Daily Water Tracker</h1>
 
-	<div class="container">
+      <p>Track your water intake</p>
 
-		<h1>Daily Water Tracker</h1>
+      <input type="number" id="glass" placeholder="Number of Glasses" />
 
-		<p>Track your water intake</p>
+      <button onclick="saveWater()">Save</button>
 
-		<input
-		type="number"
-		id="glass"
-		placeholder="Number of Glasses">
+      <p id="result"></p>
+    </div>
+    <p id="result"></p>
+    <hr />
 
-		<button onclick="saveWater()">
+    <h2>Today's Goal</h2>
+    <hr />
 
-		Save
+    <h2>Health Tip</h2>
 
-		</button>
+    <p>Drink water regularly to stay hydrated.</p>
 
-		<p id="result"></p>
+    <p>Target : 8 Glasses</p>
 
-	</div>
-	<p id="result"></p>
-	<hr>
-
-	<h2>Today's Goal</h2>
-	<hr>
-
-	<h2>Health Tip</h2>
-
-	<p>Drink water regularly to stay hydrated.</p>
-
-	<p>Target : 8 Glasses</p>
-
-	<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
